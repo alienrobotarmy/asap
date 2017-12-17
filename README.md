@@ -19,4 +19,11 @@ Output to STDOUT
 cat cisco-asa.log | asap -b 2048 
 ```
 
+## Building
+```
+go get github.com/mattn/go-sqlite3
+```
+```
+go build asap.go
+```
 
